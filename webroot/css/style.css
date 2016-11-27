@@ -1,0 +1,147 @@
+body
+{
+       margin-top: 0px;
+       position: relative;
+       background-color: white;
+	
+	
+}
+
+#block_page
+{
+	background-color: rgba(218,218,218,0.5);
+	margin-left:0%;
+	margin-right:0%;
+}
+header
+{
+	border:1px black solid;
+	background-color: rgba(82,82,234,0.5);
+	
+}
+#div_header 
+{
+	display: flex;
+	justify-content: space-between;
+
+	
+}
+.pagination ul
+{
+    
+    display: flex;
+    list-style-type:none;
+    justify-content: space-around;
+     padding: 0px;
+}
+.pagination ul li 
+{
+    padding: 0px;
+}
+#div_header img
+{
+	width:auto;
+	margin-left:0px;
+	margin-top:0px;
+	
+}
+#div_header nav ul 
+{
+	list-style-type:none;
+	display:flex;
+	justify-content: flex-end;
+	color:white;
+	margin-top:0px;
+	
+	
+}
+.success{
+    background-color: green;
+    border-radius: 5px;
+}
+.error{
+    background-color: moccasin;
+     border-radius: 5px;
+}
+#div_header nav ul li
+{
+	padding: 5%;
+	border-left:1px black solid;
+	
+	
+}
+#div_header nav ul li a , #div_lien nav ul a
+{
+	color:white;
+	text-decoration:none;
+}
+
+#div_lien nav ul
+{
+	border-top:2px maroon solid;
+	list-style-type:none;
+	margin-top:0px;
+	display:flex;
+	justify-content: space-around;	
+}
+#body
+{
+	border:1px black solid;
+	display:flex;
+        
+	
+}
+
+#body nav ul
+{
+	list-style-type:none;
+	width:80%;
+	margin-top:0px;
+	border:2px maroon solid;
+	padding:20%;
+       
+	
+	
+}
+#body nav ul li
+{
+	padding:10%;	
+}
+#body .admin
+{
+       
+	margin-right:0%;
+	margin-left:10%;
+	text-align:justify;
+}
+#body section 
+{
+	height:800%;
+	margin-right:10%;
+	margin-left:20%;
+	text-align:justify;
+        
+}
+footer
+{
+	border:1px red solid;
+	
+}
+footer nav ul
+{
+	list-style-type:none;
+	display:flex;
+	justify-content: flex-end;
+	margin-bottom:0px;
+	
+	
+}
+footer nav ul li
+{
+	padding: 5%;
+	border-left:1px black solid;
+}
+footer nav ul li a ,#body nav ul li a
+{
+	text-decoration:none;
+}
