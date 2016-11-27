@@ -1,0 +1,6 @@
+.git
+.idea
+nbproject
+composer.lock
+config/conf.php
+.idea/workspace.xml
